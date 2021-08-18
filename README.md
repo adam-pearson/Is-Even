@@ -9,3 +9,5 @@ You can either use the JavaScript file as-is, where the max is set to 500,000, o
 maximum with buildContents()!
 
 Function returns true on even values, and false for odd values.
+
+*Now DOESN'T hit call stack limits!*
