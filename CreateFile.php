@@ -15,7 +15,7 @@ function buildContents($max) {
     $string .= "}\n";
     return $string;
 };
-fwrite($buildFile, buildContents(100000));
+fwrite($buildFile, buildContents(500000));
 fclose($buildFile);
 
 ?>
